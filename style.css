@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0066cc;
+  color: white;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header nav .btn {
+  background: orange;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #e6f2ff;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-box input, .search-box button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.featured {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
